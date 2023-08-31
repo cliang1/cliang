@@ -5,9 +5,8 @@ layout: post
 title: Calculator
 description: Calculator project (hopefully)
 type: tangibles
-courses: { compsci: {week: 2} }
+courses: { compsci: {week: 1} }
 ---
-
 <!-- 
 Hack 0: Right justify result
 Hack 1: Test conditions on small, big, and decimal numbers, report on findings. Fix issues.
