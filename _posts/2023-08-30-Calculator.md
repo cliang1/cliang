@@ -4,7 +4,7 @@ comments: false
 layout: post
 title: Calculator
 description: Calculator project (hopefully)
-type: tangibles
+type: Tangibles
 courses: { compsci: {week: 0} }
 ---
 
@@ -216,4 +216,3 @@ vantaInstance({
   gyroControls: false
 });
 </script>
-
