@@ -1,14 +1,3 @@
----
-toc: true
-comments: false
-layout: post
-title: Quiz
-description: Quiz assignment
-type: tangibles
-courses: { compsci: {week: 0} }
----
-
-
 import getpass, sys, os
 
 # Questions and answers
