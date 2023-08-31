@@ -5,7 +5,7 @@ layout: post
 title: Calculator
 description: Calculator project (hopefully)
 type: tangibles
-courses: { compsci: {week: 1} }
+courses: { compsci: {week: 2} }
 ---
 <!-- 
 Hack 0: Right justify result
@@ -36,10 +36,10 @@ HTML implementation of the calculator.
     grid-column: span 4;
     grid-row: span 1;
   
-    border-radius: 10px;
-    padding: 0.25em;
-    font-size: 20px;
-    border: 5px solid black;
+    border-radius: 12px;
+    padding: 0.3em;
+    font-size: 30px;
+    border: 20px solid black;
   
     display: flex;
     align-items: center;
