@@ -5,5 +5,5 @@ layout: post
 title: Reflection Week 0
 description: Our reflection for the week 
 type: tangibles
-courses: { compsci: {week: 2} }
+courses: { compsci: {week: 0} }
 ---
