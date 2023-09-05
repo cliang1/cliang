@@ -96,9 +96,9 @@ function updateContainer() {
     arr.forEach((val, c) => {
         let n = r*GRID_SIZE + c;
         if(val === 1) {
-        document.getElementById("cell-"+n).style['background-color'] = 'yellow';
+        document.getElementById("cell-"+n).style['background-color'] = '#D6C7E8';
         }else {
-        document.getElementById("cell-"+n).style['background-color'] = 'royalblue'
+        document.getElementById("cell-"+n).style['background-color'] = '#936DC1'
         }
     });
     })
