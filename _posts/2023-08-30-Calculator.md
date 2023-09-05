@@ -4,7 +4,7 @@ comments: false
 layout: post
 title: Calculator
 description: Calculator project (hopefully)
-type: tangibles
+type: hacks
 courses: { compsci: {week: 2} }
 ---
 <!-- 
