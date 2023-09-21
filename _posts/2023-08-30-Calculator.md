@@ -3,10 +3,11 @@ toc: true
 comments: false
 layout: post
 title: Calculator
-description: Calculator project (hopefully)
+description: A calculator  
 type: hacks
-courses: { compsci: {week: 2} }
+courses: { compsci: {week: 4} }
 ---
+
 <!-- 
 Hack 0: Right justify result
 Hack 1: Test conditions on small, big, and decimal numbers, report on findings. Fix issues.
@@ -36,10 +37,10 @@ HTML implementation of the calculator.
     grid-column: span 4;
     grid-row: span 1;
   
-    border-radius: 12px;
-    padding: 0.3em;
-    font-size: 30px;
-    border: 20px solid black;
+    border-radius: 10px;
+    padding: 0.25em;
+    font-size: 20px;
+    border: 5px solid black;
   
     display: flex;
     align-items: center;
@@ -49,6 +50,11 @@ HTML implementation of the calculator.
 <!-- Add a container for the animation -->
 <div id="animation">
   <div class="calculator-container">
+  <!-- Add a container for the calculation history -->
+  <ul id="history-list"></ul>
+  <div class="calculation-history">
+  <h2>Calculation History</h2>
+</div>
       <!--result-->
       <div class="calculator-output" id="output">0</div>
       <!--row 1-->
@@ -80,6 +86,41 @@ HTML implementation of the calculator.
 var firstNumber = null;
 var operator = null;
 var nextReady = true;
+// Initialize the calculation history array
+var calculationHistory = [];
+
+// Function to update and display the calculation history
+function updateHistory() {
+  const historyList = document.getElementById("history-list");
+  historyList.innerHTML = "";
+  calculationHistory.forEach((calculation, index) => {
+    const listItem = document.createElement("li");
+    listItem.textContent = `Calculation ${index + 1}: ${calculation}`;
+    historyList.appendChild(listItem);
+  });
+}
+
+// Modify the 'equal' function to add calculations to the history
+function equal() {
+  if (firstNumber !== null) {
+    const result = calculate(firstNumber, parseFloat(output.innerHTML));
+    calculationHistory.push(`${firstNumber} ${operator} ${output.innerHTML} = ${result}`);
+    updateHistory();
+    firstNumber = result;
+    output.innerHTML = result.toString();
+    nextReady = true;
+  }
+}
+
+// Modify the 'clearCalc' function to clear the history as well
+function clearCalc() {
+  firstNumber = null;
+  output.innerHTML = "0";
+  nextReady = true;
+  calculationHistory = [];
+  updateHistory();
+}
+
 // build objects containing key elements
 const output = document.getElementById("output");
 const numbers = document.querySelectorAll(".calculator-number");
