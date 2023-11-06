@@ -1,7 +1,7 @@
 ---
 toc: true
 comments: true
-layout: default
+layout: post
 title: Tangibles
 type: tangibles 
 courses: { compsci: {week: 10} }
