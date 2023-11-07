@@ -4,15 +4,11 @@ Unit1:
   description:  Install Tools.  Design lab notebook.  Learn GitHub Pages. Work with Aditi. 
   start: 0
   end: 3
-
-# CSP course meta data
 Unit2:
   title: Agile Methodology
   description:  Description here  
   start: 4
   end: 7
-
-# CSP course meta data
 Unit3:
   title: Web Application, Data, and night at the museum
   description:  Description here  
