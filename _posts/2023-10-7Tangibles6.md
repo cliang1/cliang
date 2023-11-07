@@ -11,5 +11,3 @@ courses: { compsci: {week: 6} }
 ## Tangibles
 
 I learned a lot this week, ___was really interesting , and ___
-
-
