@@ -2,12 +2,12 @@
 toc: true
 comments: false
 layout: post
-title: Review Week 5
-description: Review for this week
+title: Reveiew Week 6
+description: Our review for this week
 type: tangibles
-courses: { compsci: {week: 5} }
+courses: { compsci: {week: 6} }
 ---
 
 ## Tangibles
 
-I learned a lot this week, ___was really interesting , and ___
+I learned a lot this week,
