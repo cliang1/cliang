@@ -2,10 +2,10 @@
 toc: true
 comments: false
 layout: post
-title: Reveiew Week 6
+title: Review Week 5
 description: Our review for this week
 type: tangibles
-courses: { compsci: {week: 6} }
+courses: { compsci: {week: 5} }
 ---
 
 ## Tangibles
