@@ -2,10 +2,10 @@
 toc: true
 comments: false
 layout: post
-title: Routing and Computing
-description: Routing and Computing Student Teach HW
+title: 4.1 - The Internet
+description: Internet and basic protocols
 type: tangibles
-courses: { compsci: {week: 13} }
+courses: { compsci: {week: 14} }
 ---
 
 Question 1: What is parallel computing?
