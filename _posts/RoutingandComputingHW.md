@@ -5,7 +5,7 @@ layout: post
 title: Routing and Computing
 description: Routing and Computing Student Teach HW
 type: tangibles
-courses: { compsci: {week: 14} }
+courses: { compsci: {week: 13} }
 ---
 
 Question 1: What is parallel computing?
