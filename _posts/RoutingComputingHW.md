@@ -1,3 +1,13 @@
+---
+toc: true
+comments: false
+layout: post
+title: 4.1 - The Internet
+description: Internet and basic protocols
+type: tangibles
+courses: { compsci: {week: 14} }
+---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -207,6 +217,7 @@ Takes longer based no network
 <h1>Homework:</h1>
 <pre>
   Question 1: What is parallel computing?
+    Parallel computing is when 
   Question 2: If there is a computer with 3 cores that can each take one task, and the tasks are 25ms, 632ms and 100ms in run time respectively, how long will the program take to run?
   Question 3: Is sequential or parallel computing more efficient, and why?
   Question 4: What is the term called when a network has multiple paths leading up to one destination? (Used in fault-tolerant systems)
