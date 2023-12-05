@@ -1,9 +1,9 @@
 ---
 toc: true
-comments: true
+comments: false
 layout: post
 title: Routing and Computing
-description: Routing and computing student teach
+description: Routing and Computing Student Teach HW
 type: tangibles
 courses: { compsci: {week: 14} }
 ---
