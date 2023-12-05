@@ -223,7 +223,7 @@ Takes longer based no network
   Parallel computing is generally more efficient because the data is processed faster, as more data is processed in any given moment. However, you could argue for a singular simple task, parallel computing might overcomplicate it by splitting it into multiple tasks, which would make sequential computing more efficient. 
   Question 4: What is the term called when a network has multiple paths leading up to one destination? Multipath routing (Used in fault-tolerant systems)
   <img src="../assets\images\ftolhw.png">
-  Question 5: Using the image above, is this fault tolerant?
+  Question 5: Using the image above, is this fault tolerant? Yes
 </pre>
 Due Dec 5th (Tuesday), at 8:30 AM, submit your answers to us on Slack
   <footer class="footing">
