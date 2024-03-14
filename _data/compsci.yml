@@ -24,22 +24,22 @@ Unit5:
   description:  Description here  
   start: 15
   end: 21
-Sprint6:
+Unit6:
   title: N@tM and Create Performance Task (CPT) video and presentations. MCQ Exam Practice.
   description: Trimester 2 concludes with students presenting their CPT project at N@tM. Each person within "Student Teams" will have their own specialty within the student project that satisfies all their Create Performance Task requirements. Students should be able to talk about design, coding, iteration, and present features of their portion of the system.
   start: 22
   end: 24
-Sprint7: 
+Unit7: 
   title: Data Structures and Data Science
   description: This is the beginning of a college course following the outline of CS113 Data Structures from Mira Costa CC. Topics, using Python, include searching, sorting, hashing, algorithms, analysis, object-oriented design, collections, lists, stacks, queues, trees, sets, dictionaries, and graphs.
   start: 25
   end: 29
-Sprint8:
+Unit8:
   title: AP Weeks
   description: Activities will be focused on supporting students in test preparations, including student teaching. Days that are not focused on test preparation will be focused on planning for year-end project/portfolio.
   start: 30
   end: 32
-Sprint9:
+Unit9:
   title: Passion Project and N@tM
   description: Presenting accomplishments for the year by creating a passion project for N@tM. This project will serve as the year-end final exam.
   start: 33
