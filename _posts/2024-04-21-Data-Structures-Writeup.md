@@ -55,7 +55,10 @@ APIs and JSON
 ![image](https://github.com/cliang1/cliang/assets/142470304/e21e8507-f1e4-442f-b90f-5236eb633d18)
 
  - [ ] In Postman, show the JSON response for error for 400 when missing body on a POST request.
+ ![image](https://github.com/cliang1/cliang/assets/142470304/3ce78daf-f495-42f4-9edc-8330db52f9f7)
+
  - [ ] In Postman, show the JSON response for error for 404 when providing an unknown user ID to a UPDATE request.
+ 
 # Frontend - Total __/8, Grade __/1
  - [ ] Blog JavaScript API fetch code and formatting code to display JSON.
 ![image](https://github.com/cliang1/cliang/assets/142470304/6927e34b-1913-4a25-8e77-98549b2708bc)
