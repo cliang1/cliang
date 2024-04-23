@@ -72,7 +72,6 @@ The 400 error shows up if the user doesnt' provide a body for the API to use to 
  - [ ] In Postman, show the JSON response for error for 400 when missing body on a POST request.
  ![image](https://github.com/cliang1/cliang/assets/142470304/3ce78daf-f495-42f4-9edc-8330db52f9f7)
 
- - [ ] In Postman, show the JSON response for error for 404 when providing an unknown user ID to a UPDATE request.
  
 # Frontend - Total __/8, Grade __/1
  - [ ] Blog JavaScript API fetch code and formatting code to display JSON.
@@ -97,8 +96,7 @@ The 400 error shows up if the user doesnt' provide a body for the API to use to 
 
 ![image](https://github.com/cliang1/cliang/assets/142470304/83a868f7-3635-450e-a799-b8c845bfe08c)
 
- - [ ] In the Chrome browser, show a demo (POST or UPDATE) gathering and sending input and receiving a response that show update. Repeat this demo showing both success and failure.
-
+ 
  - [ ] In JavaScript code, show and describe code that handles success. Describe how code shows success to the user in the Chrome Browser screen.
 Sucess will print a bolded sentence telling the user their predicted calorie burn as well as a fact abotu fitness to encourage the user to continue exerciseing. 
 ![image](https://github.com/cliang1/cliang/assets/142470304/490d8cf5-f860-46b1-89d7-77e5a23d5af8)
