@@ -25,6 +25,7 @@ Defines the init_sleep function that initializes the database. The db.create.all
 ![image](https://github.com/cliang1/cliang/assets/142470304/20fd6a31-e220-41b5-977b-968602b95185)
 
 Lists and Dictionaries
+Displays code to initalize the sleep.db database.
 ![image](https://github.com/cliang1/cliang/assets/142470304/634928e0-22a2-4bcf-874d-326ba5279167)
 # Lists and Dictionaries - Total __/3, Grade __/1
  - [ ] Blog Python API code and use of List and Dictionaries.
@@ -38,12 +39,13 @@ Lists and Dictionaries
 
  - [ ] In VSCode use Debugger and list, show two distinct example examples of dictionaries, show Keys/Values using debugger.
 APIs and JSON
-The first one is an example with the sleep data, which gets all the SQL data related to sleep. By adding a breakpoint there, we can see the query that gets all the data and the post functino that requests the json data. 
+The first one is an example with the sleep data, which gets all the SQL data related to sleep. By adding a breakpoint there, we can see the query that gets all the data and the post function that requests the json data. 
 ![image](https://github.com/cliang1/cliang/assets/142470304/bc105fc4-98af-47fa-b63f-28bc2988fed4)
 ![image](https://github.com/cliang1/cliang/assets/142470304/fafb392e-9bd5-4d6c-804b-a007c0d3053b)
 
 # APIs and JSON - Total __/7, Grade __/1
  - [ ] Blog Python API code and use of Postman to request and respond with JSON.
+ The python code creates an ednpoint that requires a input from the body
 ![image](https://github.com/cliang1/cliang/assets/142470304/9d9884d7-2e5a-4a6c-935b-d23b13ec7099)
 
  - [ ] In VSCode, show Python API code definition for request and response using GET, POST, UPDATE methods. Discuss algorithmic condition used to direct request to appropriate Python method based on request method.
@@ -88,11 +90,13 @@ The 400 error shows up if the user doesnt' provide a body for the API to use to 
 ![image](https://github.com/cliang1/cliang/assets/142470304/a019033d-9051-4b8b-adfb-27a1a651d334)
 
  - [ ] In JavaScript code, describe fetch and method that obtained the Array of JSON objects.
+ The code gets all the records from the database, formats it as a json object, and presents it in postman when the API is called.  
  
 ![image](https://github.com/cliang1/cliang/assets/142470304/d6b002df-ed5f-420c-afc3-a3923fce6a04)
 ![image](https://github.com/cliang1/cliang/assets/142470304/7b806b6f-3936-4d26-b040-8b9d3652e266)
 
  - [ ] In JavaScript code, show code that performs iteration and formatting of data into HTML.
+ Iterates over each row of the sleep data and then uses the displayitems function to format it as a table. 
 
 ![image](https://github.com/cliang1/cliang/assets/142470304/83a868f7-3635-450e-a799-b8c845bfe08c)
 
