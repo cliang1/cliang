@@ -10,46 +10,50 @@ courses: {'compsci': {'week': 29}}
 
 # Collections - Total ___ / 3, Grade __/1
  - [ ] Blog Python Model code and SQLite Database.
+
  Stated with sleep.csv file and then created initialization and SQL schema. Used Python model code to send the SQL sleep data into frontend. Each user has inputs for duration of sleep, quality of sleep, or any sleep disorders. 
 ![image](https://github.com/cliang1/cliang/assets/142470304/28256356-5b36-4d4a-954a-82fbb79645dc)
 
  - [ ] From VSCode using SQLite3 Editor, show your unique collection/table in database, display rows and columns in the table of the SQLite database.
+
+Displays the schema for the sleep.csv table with the columns for different categories like heart rate or hours of sleep gotten. 
  
 ![image](https://github.com/cliang1/cliang/assets/142470304/1d1e12e2-f832-4eb4-b102-fe45f40203a3)
 
  - [ ] From VSCode model, show your unique code that was created to initialize table and create test data.
 
-Defines the init_sleep function that initializes the database. The db.create.all funciton helps create the SQL table if it doesn't exist already. There is tester data underneath, and the code under it initializes the data to populate the table.  
+Defines the init_sleep function that initializes the database. The db.create.all funciton helps create the SQL table if it doesn't exist already. There is tester data underneath, and the code under it initializes the data to populate the table. We can run migrate.sh to run the code that creates the table. 
 
 ![image](https://github.com/cliang1/cliang/assets/142470304/0ab87344-1b3b-48e1-9eb5-541cb4231d06)
 ![image](https://github.com/cliang1/cliang/assets/142470304/20fd6a31-e220-41b5-977b-968602b95185)
 
 Lists and Dictionaries
-Displays code to initalize the sleep.db database.
+Displays code to initalize the sleep.db database. Uses a couple lines of example code and defines each of the columns that should be created as part of the schema. 
 ![image](https://github.com/cliang1/cliang/assets/142470304/634928e0-22a2-4bcf-874d-326ba5279167)
 # Lists and Dictionaries - Total __/3, Grade __/1
  - [ ] Blog Python API code and use of List and Dictionaries.
- 
+
+ Creates the API endpoint that calls to the fitness ML. predicted_calories was defined in the model code for fitness, and when main.py is run, the person inputs the BPM, intensity, and duration in order to get a predicted number of calories burnt. 
 ![image](https://github.com/cliang1/cliang/assets/142470304/3461b09b-80fa-4213-9ab7-e392c1dd5b17)
 ![image](https://github.com/cliang1/cliang/assets/142470304/27e11fd7-1a4f-4309-8685-7fd9e2911ffc)
 
  - [ ] In VSCode using Debugger, show a list as extracted from database as Python objects.
  
-![image](https://github.com/cliang1/cliang/assets/142470304/cb676161-62b2-48b8-8fb9-02d9ab571744)
+![image](https://github.com/cliang1/cliang/assets/142470304/bc105fc4-98af-47fa-b63f-28bc2988fed4)
 
  - [ ] In VSCode use Debugger and list, show two distinct example examples of dictionaries, show Keys/Values using debugger.
 APIs and JSON
 The first one is an example with the sleep data, which gets all the SQL data related to sleep. By adding a breakpoint there, we can see the query that gets all the data and the post function that requests the json data. 
-![image](https://github.com/cliang1/cliang/assets/142470304/bc105fc4-98af-47fa-b63f-28bc2988fed4)
+
 ![image](https://github.com/cliang1/cliang/assets/142470304/fafb392e-9bd5-4d6c-804b-a007c0d3053b)
 
 # APIs and JSON - Total __/7, Grade __/1
  - [ ] Blog Python API code and use of Postman to request and respond with JSON.
- The python code creates an ednpoint that requires a input from the body
+ The python code creates an ednpoint that requires a input from the body for BPM, Duration, and Intensity. 
 ![image](https://github.com/cliang1/cliang/assets/142470304/9d9884d7-2e5a-4a6c-935b-d23b13ec7099)
 
  - [ ] In VSCode, show Python API code definition for request and response using GET, POST, UPDATE methods. Discuss algorithmic condition used to direct request to appropriate Python method based on request method.
-
+The POST function requires all the necessary parts of the body to be present, like gender, BPM, or etc. Similarly, this is also implemented in teh fitness code, where BPM, Duration, and Intensity all have to be inputted in order for the predict_calories funciton to work.
  
 ![image](https://github.com/cliang1/cliang/assets/142470304/5e309e26-a42d-419d-83c3-4b22075c4a1b)
 ![image](https://github.com/cliang1/cliang/assets/142470304/ddf5c4ac-653a-45f1-9619-4368ea3c8adb)
@@ -77,7 +81,8 @@ The 400 error shows up if the user doesnt' provide a body for the API to use to 
  
 # Frontend - Total __/8, Grade __/1
  - [ ] Blog JavaScript API fetch code and formatting code to display JSON.
- The fetch code connects to the API specified in the backend, and displays the sleep data in a table, and the fitness data as a number rounded to 2 decimals. 
+
+ The fetch code connects to the API specified in the backend, and displays the sleep data in a table, and the fitness data as a number rounded to 2 decimals. It is displayed as bolded text in a statement, and another sleep or fitness related fact is displayed below the input. 
 ![image](https://github.com/cliang1/cliang/assets/142470304/2de812dd-e471-4aa5-b8d0-110f8529537b)
 ![image](https://github.com/cliang1/cliang/assets/142470304/437c9fc7-7cd9-4734-81db-f9a484cb5e1c)
 
@@ -90,7 +95,8 @@ The 400 error shows up if the user doesnt' provide a body for the API to use to 
 ![image](https://github.com/cliang1/cliang/assets/142470304/a019033d-9051-4b8b-adfb-27a1a651d334)
 
  - [ ] In JavaScript code, describe fetch and method that obtained the Array of JSON objects.
- The code gets all the records from the database, formats it as a json object, and presents it in postman when the API is called.  
+
+ The code gets all the records from the database, formats it as a json object, and presents it in postman when the API is called. it reads through each row of the json and then inputs it into the table created by HTML. 
  
 ![image](https://github.com/cliang1/cliang/assets/142470304/d6b002df-ed5f-420c-afc3-a3923fce6a04)
 ![image](https://github.com/cliang1/cliang/assets/142470304/7b806b6f-3936-4d26-b040-8b9d3652e266)
